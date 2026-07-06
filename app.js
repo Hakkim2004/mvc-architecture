@@ -19,6 +19,7 @@ app.use('/', sampleRouter);
 
 app.listen(port, ()=> {
   console.log(`Server is Running on http://localhost:${port}`)
+  console.log(`Server is Running`)
 })
 
 
